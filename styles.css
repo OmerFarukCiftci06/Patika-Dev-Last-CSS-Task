@@ -1,0 +1,151 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation__bar{
+    width: 98%;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.navigation__bar__left{
+    float: left;
+    display: flex;
+    padding-right: 10px;
+}
+
+.navigation__bar__right{
+    padding-right: 10px;
+    display: flex;   
+    float: right; 
+
+}
+
+.navigation__bar__right__item{
+    padding-right: 10px;
+}
+
+.navigation__bar__right a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.apps__button,
+.profil__pic{
+    width: 16px;
+    height: 16px;
+}
+
+.profil__pic{
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    bottom: 0px;
+}
+
+main{
+    margin: 200px;
+    text-align: center;
+}
+
+.main__search__area__organize{
+    vertical-align: middle;
+    height: 50px;
+}
+
+.search__area:active,
+.search__area:visited
+{
+    border: 1px solid grey;
+    border-radius: 25px;
+    box-shadow: none;
+}
+
+.search__area{
+    border: 10px solid black;
+    margin: 0 auto;
+    width: 480px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 25px;
+    height: 41px;
+}
+
+.voice__logo{
+    position: relative;
+    display: inline-block;
+    height: 80%;
+    width: 30px;
+    right: -230px;
+    bottom: 35px;
+}
+
+.arama__logo{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    bottom: 35px;
+    left: -230px;
+}
+
+
+.googlesearch,
+.feelinglucky {
+    color: #5f6368;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px bold #f2f2f2;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+}
+  
+
+
+.footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+  }
+  
+  .footerli {
+    float: left;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
